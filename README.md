@@ -2,8 +2,9 @@
 [格雷科技社区整合包现代版](https://github.com/GregTechCEu/GregTech-Modern-Community-Pack)（GCPM）的中文翻译。
 ## 使用说明
 1. 点击右上角的右上角 **`Code`**，再点击 `Download ZIP` 进行下载。
-2. 打开版本文件夹，把 `.../config/ftbquests/quests` 替换为所下载文件中的 `quests`文件夹。
-3. 使用[自动汉化更新模组（i18n）](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)进行模组汉化。
+2. 打开版本文件夹，把 `.../config/ftbquests/quests` 替换为所下载文件中的 `config/ftbquests/quests` 文件夹。
+3. 把 `.../kubejs` 替换为所下载文件中的 `kubejs` 文件夹。
+4. 使用[自动汉化更新模组（i18n）](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)进行模组汉化。
 
 在本整合包内找不到对应的物品或机器的英文原文和其所对应的翻译都在附录一中。
 ## 开源许可
