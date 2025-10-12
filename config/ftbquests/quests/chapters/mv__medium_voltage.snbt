@@ -103,7 +103,7 @@
 			}]
 			title: "生物质"
 			x: 0.0d
-			y: -1.875d
+			y: -2.64d
 		}
 		{
 			dependencies: ["74180AC57AE9F0FE"]
@@ -146,7 +146,7 @@
 				}
 			]
 			title: "卖酒的当地酒厂"
-			x: 1.125d
+			x: -1.125d
 			y: -1.875d
 		}
 		{
@@ -201,7 +201,7 @@
 			}]
 			title: "乙醇"
 			x: 0.0d
-			y: -3.0d
+			y: -3.63d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
@@ -269,7 +269,7 @@
 		{
 			dependencies: [
 				"0DBC148D92A9F69F"
-				"7567E885B7166603"
+				"1BE0349B8F3890D3"
 				"6E186F9C57155BFA"
 			]
 			description: [
@@ -314,8 +314,8 @@
 				type: "item"
 			}]
 			title: "MV产能"
-			x: 2.25d
-			y: -1.875d
+			x: 0.0d
+			y: 2.44d
 		}
 		{
 			dependencies: ["2AD44111B9B39C90"]
@@ -380,8 +380,8 @@
 				type: "item"
 			}]
 			title: "变压器"
-			x: 0.0d
-			y: -0.75d
+			x: 1.125d
+			y: 2.44d
 		}
 		{
 			dependencies: [
@@ -849,8 +849,8 @@
 				type: "item"
 			}]
 			title: "温室"
-			x: 0.0d
-			y: -1.875d
+			x: -1.125d
+			y: 0.375d
 		}
 		{
 			dependencies: [
@@ -1599,8 +1599,8 @@
 				type: "checkmark"
 			}]
 			title: "它会融化你的血肉"
-			x: 2.25d
-			y: -4.125d
+			x: 3.375d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -2340,8 +2340,8 @@
 				type: "item"
 			}]
 			title: "我相信我会飞"
-			x: -5.625d
-			y: -0.75d
+			x: -3.37d
+			y: -3.56d
 		}
 		{
 			dependencies: ["75F38905DEA60F15"]

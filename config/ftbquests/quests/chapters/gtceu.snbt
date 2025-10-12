@@ -1351,6 +1351,7 @@
 						Count: 1
 						id: "gtceu:iron_axe"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: {
 								DisableShields: 1b

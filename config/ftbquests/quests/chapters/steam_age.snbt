@@ -503,7 +503,7 @@
 				"{@pagebreak}"
 				"&c输出仓&r是水生成的地方，你可以把它向上或向下放置来自动给管道供水，而管道可以&e穿过&r防腐木框架延伸——只要在你用框架把它包住之前放置好就可以了。"
 				""
-				"当你达到&7LV&r或&bMV&r时，你可以使用任意等级的输出仓来提高泵的输出。"
+				"之后你就可以用&8ULV&r或&7LV&r输出仓来提高泵的输出了。"
 				""
 				"&2小提醒：&r用扳手来旋转GT方块（潜行右键）。"
 				""
@@ -1156,6 +1156,7 @@
 					Count: 1
 					id: "gtceu:invar_mining_hammer"
 					tag: {
+						Damage: 0
 						DisallowContainerItem: 0b
 						Enchantments: [{
 							id: "minecraft:efficiency"
@@ -1632,15 +1633,17 @@
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"副标题注：这是《银河系漫游指南》的一句话，意思是再会，谢谢所有的鱼，只是把谢谢（thank）改成了储罐（tank）。"
+				"副标题注：“So_long,_and_Thanks_for_all_the_fish!”是《银河系漫游指南》的一句话，意思是再会，谢谢所有的鱼。这里把谢谢（thank）改成了储罐（tank）。"
 				""
 				"你现在是可以进行大量&b流体存储&r的，但你需要做一个&e多方块结构&r！"
 				""
 				"§3木制多方块储罐§r可以存§a250,000mB§r，但不能存§c过热的流体§r比如岩浆或者§c气体§r比如蒸汽和氧。"
 				""
+				"&3青铜多方块储罐&r可以储存&a500,000 mB&r，提高了最大液体温度并且可以储存&c气体&r了。"
+				""
 				"§3钢制多方块储罐§r可以存§a1,000,000mB§r，而且存储限制降低了。"
 				""
-				"获得§e任何§r储罐来完成这个任务。钢的版本可能对于现在太贵了——所以你可能应该做木制的。"
+				"获得§e任何§r储罐来完成这个任务。钢的版本可能对于现在太贵了——所以你可能应该做木制的或者青铜的。"
 				"{@pagebreak}"
 				"流体可以从控制器方块传输，或者最高§a两个阀门§r。"
 				""
@@ -1669,7 +1672,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "So long, and Tanks for all the fish!"
+			subtitle: "再会，可以装下所有鱼的储罐！"
 			tasks: [
 				{
 					id: "19C34AAB329C7ABF"
@@ -1684,6 +1687,10 @@
 								}
 								{
 									Count: 1b
+									id: "gtceu:bronze_multiblock_tank"
+								}
+								{
+									Count: 1
 									id: "gtceu:steel_multiblock_tank"
 								}
 							]
@@ -1702,6 +1709,10 @@
 								{
 									Count: 1b
 									id: "gtceu:wooden_tank_valve"
+								}
+								{
+									Count: 1b
+									id: "gtceu:bronze_tank_valve"
 								}
 								{
 									Count: 1b
@@ -1724,6 +1735,10 @@
 								{
 									Count: 1b
 									id: "gtceu:solid_machine_casing"
+								}
+								{
+									Count: 1b
+									id: "gtceu:steam_machine_casing"
 								}
 								{
 									Count: 1b

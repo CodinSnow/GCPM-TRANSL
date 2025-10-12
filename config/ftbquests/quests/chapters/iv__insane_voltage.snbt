@@ -20,7 +20,11 @@
 				"300348B1238BCB9A"
 				"7A1E3C3A2D699C5B"
 			]
-			description: ["副标题注：常春藤和IV发音相近。""""这个超导体会用于&dLuV&r······当你沉浸在&b研究&r里的时候。"]
+			description: [
+				"副标题注：常春藤和IV发音相近。"
+				""
+				"这个超导体会用于&dLuV&r······当你沉浸在&b研究&r里的时候。"
+			]
 			icon: "gtceu:samarium_iron_arsenic_oxide_double_wire"
 			id: "52D952ADBEB67454"
 			size: 0.75d
@@ -1097,6 +1101,7 @@
 				Count: 1
 				id: "gtceu:polybenzimidazole_mallet"
 				tag: {
+					Damage: 0
 					DisallowContainerItem: 0b
 					GT.Behaviours: { }
 					GT.Tool: {
@@ -1116,6 +1121,7 @@
 					Count: 1
 					id: "gtceu:polybenzimidazole_mallet"
 					tag: {
+						Damage: 0
 						DisallowContainerItem: 0b
 						GT.Behaviours: { }
 						GT.Tool: {

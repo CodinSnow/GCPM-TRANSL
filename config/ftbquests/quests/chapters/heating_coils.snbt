@@ -135,7 +135,11 @@
 		}
 		{
 			dependencies: ["6958029B5514D4EC"]
-			description: ["副标题注：正确的是Chrome_Dome行动，nichrome是镍铬合金""""镍铬合金需要你的&a电力高炉&r至少为&6EV&r加上&b坎塔尔合金&r线圈才能启动。"]
+			description: [
+				"副标题注：正确的是Chrome_Dome行动，nichrome是镍铬合金"
+				""
+				"镍铬合金需要你的&a电力高炉&r至少为&6EV&r加上&b坎塔尔合金&r线圈才能启动。"
+			]
 			id: "1CBA5477CB7C45E7"
 			shape: "rsquare"
 			size: 0.66d
@@ -154,7 +158,11 @@
 				"2F9D9AAB27E6534D"
 				"0B25A282F677744B"
 			]
-			description: ["副标题注：这句话改编自“The_King_is_Dead,_Long_Live_the_King! ”，即“（旧）国王已死，（新）国王万岁！”。这是古时候欧洲新王即位的宣告，最初记载于查尔斯七世的继位。""""你马上就要开始&d铂&r的处理，或者叫“&b铂链&r”了，如果你想开始的话。"]
+			description: [
+				"副标题注：这句话改编自“The_King_is_Dead,_Long_Live_the_King! ”，即“（旧）国王已死，（新）国王万岁！”。这是古时候欧洲新王即位的宣告，最初记载于查尔斯七世的继位。"
+				""
+				"你马上就要开始&d铂&r的处理，或者叫“&b铂链&r”了，如果你想开始的话。"
+			]
 			id: "3856DBCCAA6D2A58"
 			shape: "rsquare"
 			size: 0.66d
