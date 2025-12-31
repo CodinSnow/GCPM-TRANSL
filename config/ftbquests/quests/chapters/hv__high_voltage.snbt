@@ -1043,7 +1043,11 @@
 				""
 				"&a甲苯&r可以选择性地在&5EV&r时代制作&d汽油&r。"
 				""
-				"&cTNT&r可以用在&3聚爆压缩机&r中制作宝石。它也可以炸毁东西（包括你朋友）。"
+				"&cTNT&r被用在&3聚爆压缩机&r中制作宝石。它也可以炸毁东西（包括你朋友）。"
+				"{@pagebreak}"
+				"&cITNT&r也可以以更好的比率用在&3聚爆压缩机&r中，但是需要&a硝酸混合物&r来制作。它也会在被敲打时燃烧，所以安放好它后小心点。"
+				""
+				"获取&9either&rTNT或ITNT来完成这个任务。"
 				""
 				"严格来讲炸药也可以，······但它比起TNT做着太不方便了，而火药桶比较弱。"
 			]
@@ -1055,11 +1059,28 @@
 				{
 					id: "1CB85F57BA45252D"
 					item: "gtceu:gelled_toluene"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "04BF6A36E965C348"
-					item: "minecraft:tnt"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:tnt"
+								}
+								{
+									Count: 1b
+									id: "gtceu:industrial_tnt"
+								}
+							]
+						}
+					}
+					title: "TNT"
 					type: "item"
 				}
 			]
