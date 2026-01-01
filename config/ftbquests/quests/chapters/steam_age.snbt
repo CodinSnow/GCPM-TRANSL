@@ -464,15 +464,13 @@
 				""
 				"&6格雷科技&r很快就会因为引入过多流体而让人&4不太好处理&r，所以你需要寻找一种储存它的方法。"
 				""
-				"引入······&a桶&r！它们的容量很大，而且所有·&a桶&r在被破坏时都可以&d保留其中的流体&r。"
+				"引入······&a桶&r！它们的容量很大，而且所有&a桶&r在被破坏时都可以&d保留其中的流体&r。"
 				"{@pagebreak}"
-				"&l&4[ NOT YET IMPLEMENTED ]"
+				"此外，机器的&b内部流体槽&r会和内部含有流体的物品互动，对于手动合成来说棒极了——这意味着你可以用桶在合成中代替铁桶。而你如果想&5清空流体&r的话，可以把桶单独放在任意合成格子里。"
 				""
-				"Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
-				""
-				"&o&7Pssst:&8 &oA right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
+				"&o&7悄悄话：&8&o用螺丝刀右键单击可以让一个桶自动向下输出。这对于延长液体锅炉的运行时间是个绝佳的选择。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o These drums are actually ported from GregTech 6."
+				"&l&3小知识：&r&o这些桶从GT6移植而来。"
 			]
 			id: "2B74E56C9E138F18"
 			rewards: [{
@@ -1148,20 +1146,16 @@
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
-			description: ["殷钢做的GT工具比起铁制的要多&650%耐久&r（没错，和&a锻铁&r一样），并且自带&b效率I&r。对于挖矿很有用——在&5解锁&r钢之前，你可以考虑拿它制作工具。"]
+			description: ["殷钢做的GT工具比起铁制的要多&650%耐久&r（没错，和&a锻铁&r一样）。对于挖矿很有用——在&5解锁&r钢之前，你可以考虑拿它制作工具。"]
 			id: "76F61E499780C30B"
 			rewards: [{
-				id: "15C0F36A7E35F7A6"
+				id: "4B335E308869FC4B"
 				item: {
 					Count: 1
 					id: "gtceu:invar_mining_hammer"
 					tag: {
 						Damage: 0
 						DisallowContainerItem: 0b
-						Enchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 1s
-						}]
 						GT.Behaviours: {
 							AoEColumn: 1
 							AoELayer: 0
@@ -1169,8 +1163,12 @@
 							MaxAoEColumn: 1
 							MaxAoELayer: 0
 							MaxAoERow: 1
+							TorchPlacing: 1b
 						}
 						GT.Tool: {
+							AttackDamage: 4.5f
+							AttackSpeed: -3.2f
+							DefaultEnchantments: [ ]
 							Damage: 0
 							HarvestLevel: 2
 							MaxDamage: 1151
