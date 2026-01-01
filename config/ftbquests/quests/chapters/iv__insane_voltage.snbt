@@ -503,7 +503,7 @@
 				item: "gtceu:iv_macerator"
 				type: "item"
 			}]
-			title: "以更快的速度粉碎你的矿石"
+			title: "以更快的速度粉碎矿石"
 			x: 1.5d
 			y: 4.875d
 		}
