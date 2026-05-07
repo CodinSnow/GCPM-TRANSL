@@ -7,9 +7,11 @@ ItemEvents.tooltip((event) => {
       "storagedrawers:redstone_upgrade",
       "storagedrawers:min_redstone_upgrade",
       "storagedrawers:max_redstone_upgrade",
+      "storagedrawers:compacting_drawers_2",
       "storagedrawers:compacting_drawers_3",
+      "storagedrawers:compacting_half_drawers_2",
+      "storagedrawers:compacting_half_drawers_3",
       "storagedrawers:fill_level_upgrade",
-      "storagedrawers:illumination_upgrade",
 
       "expatternprovider:caner",
       "ae2:inscriber",
@@ -32,4 +34,10 @@ ItemEvents.tooltip((event) => {
   event.add("ae2:controller", Text.gray("频道被§c禁用§7了。"));
 
   event.add("expatternprovider:fishbig", Text.gray("恭喜！你赢得我的世界了。"));
+
+  event.add(["enderstorage:ender_chest", "enderstorage:ender_tank", "enderstorage:ender_pouch"],
+    Text.red("警告：这些物品已经弃用，并将在未来更新中移除。\n请在工作台中将它们转换为GT覆盖板。")
+  );
+
+  event.add("storagedrawers:personal_key_ftb", Text.gray("将普通私人钥匙放进合成网格中来合成。"));
 });

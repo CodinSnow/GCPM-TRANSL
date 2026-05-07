@@ -304,9 +304,7 @@
 						id: "gtceu:red_steel_pickaxe"
 						tag: {
 							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
+							GT.Tool: { }
 						}
 					}
 					type: "item"
@@ -413,7 +411,7 @@
 				type: "item"
 			}]
 			title: "第一个电动马达"
-			x: 6.75d
+			x: 7.875d
 			y: -1.5d
 		}
 		{
@@ -1169,7 +1167,6 @@
 							AttackDamage: 4.5f
 							AttackSpeed: -3.2f
 							DefaultEnchantments: [ ]
-							Damage: 0
 							HarvestLevel: 2
 							MaxDamage: 1151
 							ToolSpeed: 5.6f

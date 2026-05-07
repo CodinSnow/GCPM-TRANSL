@@ -113,10 +113,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"35E7E45987D9B1F6"
-				"30A6EDDF25A5E5F8"
-			]
+			dependencies: ["35E7E45987D9B1F6"]
 			description: [
 				"从现在开始，你可以合成&dEV&r的&3能源&r和&3动能仓&r了！在&dEV&r时代，能源仓有了4A、16A、32A甚至64A的变种！"
 				""

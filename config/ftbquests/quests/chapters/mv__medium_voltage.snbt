@@ -174,8 +174,8 @@
 				type: "item"
 			}]
 			title: "乙烯"
-			x: 1.125d
-			y: -3.0d
+			x: 5.625d
+			y: -4.125d
 		}
 		{
 			dependencies: [

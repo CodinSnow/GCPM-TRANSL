@@ -1250,6 +1250,7 @@
 				""
 				"你可以自由选择。省点材料？做焊锡吧。还是省点时间？那就用锡吧。"
 			]
+			hide_dependent_lines: true
 			icon: "gtceu:soldering_alloy_ingot"
 			id: "713C8D6A20BF3A0E"
 			shape: "square"
@@ -2284,7 +2285,6 @@
 						MaxAoERow: 1
 					}
 					GT.Tool: {
-						Damage: 0
 						HarvestLevel: 2
 						MaxDamage: 767
 						ToolSpeed: 6.0f
@@ -2316,7 +2316,6 @@
 								MaxAoERow: 1
 							}
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 767
 								ToolSpeed: 6.0f
@@ -2454,7 +2453,6 @@
 					DisallowContainerItem: 0b
 					GT.Behaviours: { }
 					GT.Tool: {
-						Damage: 0
 						MaxDamage: 1023
 					}
 					HideFlags: 2

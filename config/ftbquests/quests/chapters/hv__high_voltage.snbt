@@ -260,7 +260,7 @@
 			]
 			title: "我们称之为“有趣”"
 			x: 1.125d
-			y: 0.75d
+			y: -0.75d
 		}
 		{
 			dependencies: [

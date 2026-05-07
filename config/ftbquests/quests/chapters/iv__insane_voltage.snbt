@@ -1107,7 +1107,6 @@
 					DisallowContainerItem: 0b
 					GT.Behaviours: { }
 					GT.Tool: {
-						Damage: 0
 						MaxDamage: 1023
 					}
 					HideFlags: 2
@@ -1127,7 +1126,6 @@
 						DisallowContainerItem: 0b
 						GT.Behaviours: { }
 						GT.Tool: {
-							Damage: 0
 							MaxDamage: 1023
 						}
 						HideFlags: 2
