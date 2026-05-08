@@ -7,6 +7,14 @@
 4. 使用[自动汉化更新模组（i18n）](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)进行模组汉化。
 
 在本整合包内找不到对应的物品或机器的英文原文和其所对应的翻译都在附录一中。
+## 重要说明
+**任务书有些地方与整合包实际内容不符，但原文如此。** 
+考虑到模组按任务书更改的可能，故未在任务书中说明。游玩时请多加注意！
+
+包括但不限于：
+- 更高等级的电弧炉依旧只有4个格子，而非9个。
+- 变压器的调节方式。
+- 铂链（线）的小细节。
 ## 开源许可
 本项目使用 [LGPLv2.1](https://www.gnu.org/licenses/lgpl-2.1.en.html) 进行许可。全文请见[此处](https://github.com/CodinSnow/GCPM-TRANSL/blob/main/LICENSE)。
 ## 问题反馈
